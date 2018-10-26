@@ -44,10 +44,9 @@ ff <- function(x)
  length(x[!is.na(x)])
 annualObs <- annualSummary(tura, fun=ff, sensor="ETM+")
 }
-\author{
-Ben DeVries
-}
 \seealso{
 \code{\link{summaryBrick}}
 }
-
+\author{
+Ben DeVries
+}

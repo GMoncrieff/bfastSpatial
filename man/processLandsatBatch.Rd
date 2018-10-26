@@ -4,7 +4,8 @@
 \alias{processLandsatBatch}
 \title{Process Landsat data in batch mode}
 \usage{
-processLandsatBatch(x, pattern = NULL, outdir, srdir, mc.cores = 1, ...)
+processLandsatBatch(x, pattern = NULL, outdir, srdir, mc.cores = 1,
+  ...)
 }
 \arguments{
 \item{x}{Character. Directory where the data is located. Data can be of the following formats: hdf, geoTiff, tar.gz or zip)}
@@ -43,10 +44,9 @@ plot(r <- raster(list[1]))
 
 
 }
-\author{
-Loic Dutrieux
-}
 \seealso{
 \link{processLandsat} and \link{sr2vi}
 }
-
+\author{
+Loic Dutrieux
+}

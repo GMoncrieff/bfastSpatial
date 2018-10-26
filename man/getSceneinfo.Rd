@@ -28,4 +28,3 @@ getSceneinfo(names(tura))
 \author{
 Ben DeVries and Loic Dutrieux
 }
-

@@ -4,8 +4,8 @@
 \alias{sr2vi}
 \title{Calculate Vegetation Index from Landsat surface reflectance data file}
 \usage{
-sr2vi(x, vi = "ndvi", e = NULL, mask = NULL, keep = c(0), L = 0.5,
-  ...)
+sr2vi(x, vi = "ndvi", e = NULL, mask = NULL, keep = c(0),
+  L = 0.5, ...)
 }
 \arguments{
 \item{x}{Character. File name of the hdf file containing the bands, or list of filenames (geoTiffs).}
@@ -28,10 +28,9 @@ A rasterLayer object
 \description{
 Extract layers, apply mask (optional), crop (optional), calculate NDVI (possible other indices supported in the future) and write output to file (optional)
 }
-\author{
-Loic Dutrieux
-}
 \seealso{
 \code{\link{processLandsat}} and \code{\link{processLandsatBatch}} for wrapper and wrapper/batcher functions
 }
-
+\author{
+Loic Dutrieux
+}

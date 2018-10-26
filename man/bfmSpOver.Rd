@@ -6,8 +6,8 @@
 \usage{
 bfmSpOver(x, y, start, formula = response ~ trend + harmon, order = 3,
   lag = NULL, slag = NULL, history = c("ROC", "BP", "all"),
-  type = "OLS-MOSUM", h = 0.25, end = 10, level = 0.05, mc.cores = 1,
-  ...)
+  type = "OLS-MOSUM", h = 0.25, end = 10, level = 0.05,
+  mc.cores = 1, ...)
 }
 \arguments{
 \item{x}{A rasterBrick or rasterStack, ideally with time written to the z dimension. In case time is not written to the z dimension, the \code{dates=} argument has to be supplied (see \link{zooExtract})}
@@ -77,4 +77,3 @@ plot(out2, col = colList[out2$breakpoint - 2002], add = TRUE)
 \author{
 Loic Dutrieux
 }
-

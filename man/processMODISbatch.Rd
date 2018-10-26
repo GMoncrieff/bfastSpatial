@@ -4,8 +4,8 @@
 \alias{processMODISbatch}
 \title{Wrapper/batcher to pre-process MODIS data in batch mode}
 \usage{
-processMODISbatch(x, pattern = NULL, data_SDS, QC_SDS, bit = FALSE, QC_val,
-  fill = NULL, outdir, mosaic = TRUE, mc.cores = 1)
+processMODISbatch(x, pattern = NULL, data_SDS, QC_SDS, bit = FALSE,
+  QC_val, fill = NULL, outdir, mosaic = TRUE, mc.cores = 1)
 }
 \arguments{
 \item{x}{Character. Directory where the data is located. Or list of file names.}
@@ -37,4 +37,3 @@ Processes MODIS data for subsequentent use in time-series analysis. Performs MOD
 \seealso{
 \code{\link{cleanMODIS}}, and \code{\link{timeStackMODIS}} for stacking.
 }
-
